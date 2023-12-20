@@ -39,7 +39,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
     .exercise-wrapper {
         padding: 30px;
     }
@@ -68,12 +68,14 @@
     padding: 0.5rem;
     background: #fff;
 }
-@media (max-width: 425px) {
-    .exercise-icon{
+
+@media (max-width: 767px) {
+    .exercise-icon {
         width: 30%;
         height: 30%;
     }
 }
+
 .exercise-item span img {
     width: 100%;
 }
@@ -94,11 +96,13 @@
         font-size: 1.2rem;
     }
 }
-@media (max-width: 425px) {
+
+@media (max-width: 767px) {
     .exercise-content h4 {
         font-size: 1rem;
     }
 }
+
 .exercise-content p {
     color: rgba(255, 255, 255, 0.801);
     font-size: 1rem;
@@ -109,7 +113,8 @@
         font-size: 0.9rem;
     }
 }
-@media (max-width: 425px) {
+
+@media (max-width: 767px) {
     .exercise-content p {
         font-size: 0.8rem;
     }

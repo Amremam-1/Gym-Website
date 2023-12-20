@@ -36,13 +36,15 @@
     background: #fff;
     transition: all 0.5s ease;
 }
+
 @media (max-width: 768px) {
-    .pricing-item  {
+    .pricing-item {
         width: 50%;
     }
 }
-@media (max-width: 425px) {
-    .pricing-item  {
+
+@media (max-width: 767px) {
+    .pricing-item {
         width: 100%;
     }
 }

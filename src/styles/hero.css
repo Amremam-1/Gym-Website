@@ -29,7 +29,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
     .hero-content .section-title {
         font-size: 2rem;
     }
@@ -47,7 +47,7 @@
     font-size: 1.1rem;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
     .hero-content p {
         line-height: 20px;
         font-size: 1rem;
@@ -129,7 +129,7 @@
     border: 25px solid #d3cef2;
 }
 
-@media (max-width:425px) {
+@media (max-width:767px) {
     .box-01 {
         width: 250px;
         height: 250px;
@@ -152,7 +152,8 @@
     left: -5%;
     z-index: 10;
 }
-@media (max-width: 425px){
+
+@media (max-width: 767px) {
     .box-img {
         left: -2%;
     }
@@ -162,12 +163,14 @@
     width: 110%;
     height: 550px;
 }
-@media (max-width:425px) {
+
+@media (max-width:767px) {
     .box-img>img {
         width: 110%;
         height: 300px;
     }
 }
+
 .heart-rate {
     width: 100px;
     position: absolute;
@@ -180,11 +183,13 @@
     border-radius: 5px;
     padding: 15px 10px;
 }
-@media (max-width:425px) {
-    .heart-rate{
+
+@media (max-width:767px) {
+    .heart-rate {
         display: none;
     }
 }
+
 .heart-rate span {
     width: 30px;
     height: 25px;
@@ -218,12 +223,14 @@ h6 {
     padding: 1.2rem;
 
 }
-@media (max-width:425px) {
-    .gym-location{
+
+@media (max-width:767px) {
+    .gym-location {
         padding: 0.2rem;
         right: -10%;
     }
 }
+
 .gym-location span {
     width: 50px;
     height: 50px;
@@ -237,13 +244,15 @@ h6 {
     font-size: 1.5rem;
     border-radius: 50px;
 }
-@media (max-width:425px) {
-    .gym-location span{
+
+@media (max-width:767px) {
+    .gym-location span {
         width: 30px;
         height: 30px;
         font-size: 1rem;
     }
 }
+
 .gym-location h5 {
     font-size: 0.8rem;
     color: var(--heading-color);
@@ -251,11 +260,13 @@ h6 {
     font-weight: 600;
     font-size: 0.9rem;
 }
-@media (max-width:425px) {
-    .gym-location h5{
+
+@media (max-width:767px) {
+    .gym-location h5 {
         font-size: 0.6rem;
     }
 }
+
 .dumple-icon {
     position: absolute;
     top: -1%;

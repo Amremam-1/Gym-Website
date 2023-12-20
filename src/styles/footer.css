@@ -10,7 +10,7 @@
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
     .footer-wrapper {
         flex-direction: column;
     }
@@ -31,10 +31,11 @@
     color: var(--heading-color);
 }
 
-@media (max-width: 425px) {
-    .footer-box h2{
+@media (max-width: 767px) {
+    .footer-box h2 {
         font-size: 1.2rem;
     }
+
     .footer-box P {
         font-size: 0.9rem;
         margin-bottom: 1.2rem;
@@ -71,7 +72,7 @@
     font-size: 1.5rem;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
     .socials li a i {
         font-size: 1rem;
     }
