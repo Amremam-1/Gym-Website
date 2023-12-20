@@ -38,7 +38,11 @@
     font-weight: 700 !important;
     font-size: 1.8rem;
 }
-
+@media (max-width: 768px) {
+    .logo h2 {
+        font-size: 1.5rem;
+    }
+}
 .menu {
     display: flex;
     align-items: center;
@@ -69,6 +73,7 @@
     column-gap: 1.5rem;
 }
 
+
 .register-btn {
     outline: none;
     border: none;
@@ -80,6 +85,12 @@
     font-family: var(--font-name);
     font-weight: 500;
     cursor: pointer;
+}
+
+@media (max-width: 425px) {
+    .btn {
+        padding: 10px;
+    }
 }
 
 .mobile-menu {

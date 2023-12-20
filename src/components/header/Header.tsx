@@ -83,7 +83,7 @@ const Header = () => {
           </div>
 
           <div className="nav-right">
-            <button className="register-btn">Register</button>
+            <button className="register-btn btn">Register</button>
             <span className="mobile-menu">
               <i className="ri-menu-line"></i>
               <Menu />
