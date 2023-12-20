@@ -1,0 +1,102 @@
+.footer {
+    padding: 50px 0;
+    background: #eeeaff;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 3rem;
+
+}
+
+@media (max-width: 425px) {
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+}
+
+.footer-box {
+    flex: 1;
+}
+
+.footer-box .logo {
+    margin-bottom: 20px;
+}
+
+.footer-box P {
+    font-size: 1.1rem;
+    line-height: 28px;
+    color: var(--heading-color);
+}
+
+@media (max-width: 425px) {
+    .footer-box h2{
+        font-size: 1.2rem;
+    }
+    .footer-box P {
+        font-size: 0.9rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .company,
+    .Quick {
+        display: none;
+    }
+}
+
+.footer-box .footer-title {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.footer-box .footer-links li a {
+    line-height: 25px;
+    color: var(--heading-color);
+    font-size: 1rem;
+}
+
+.footer-box .footer-links li a:hover {
+    color: var(--primary-color);
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socials li a i {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 425px) {
+    .socials li a i {
+        font-size: 1rem;
+    }
+}
+
+
+.socials li a .facebook:hover {
+    color: #1877F2;
+}
+
+.socials li a .instagram:hover {
+    color: #E4405F;
+}
+
+.socials li a .twitter:hover {
+    color: #1DA1F2;
+}
+
+.socials li a .linked:hover {
+    color: #0A66C2;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 30px;
+}
